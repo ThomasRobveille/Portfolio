@@ -1,0 +1,38 @@
+.containerHomePage{
+  background-image: url("../assets/images/Photo_Thomas.jpg");
+  background-size: cover;
+  background-position: 50% 30%;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.containerHome {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+}
+
+h1{
+  font-size: 3em;
+  margin: 0;
+}
+
+.linkHome{
+  width: 30%;
+  border: 2px solid white;
+  border-radius: 25px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.linkHome a{
+  color: white;
+  text-decoration: none;
+}
