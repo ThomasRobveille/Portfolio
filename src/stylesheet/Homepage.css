@@ -1,10 +1,13 @@
 .containerHomePage{
-  background-image: url("../assets/images/Photo_Thomas.jpg");
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(28, 59, 63, 0.5)), url("../assets/images/Photo_Thomas.jpg");
   background-size: cover;
   background-position: 50% 30%;
   width: 100%;
   height: 100vh;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .containerHome {
@@ -13,7 +16,12 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 80%;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1{
@@ -21,7 +29,13 @@ h1{
   margin: 0;
 }
 
-.linkHome{
+.fleche_bas{
+  width: 1px;
+  height: 100px;
+  background: white;
+}
+
+/* .linkHome{
   width: 30%;
   border: 2px solid white;
   border-radius: 25px;
@@ -35,4 +49,4 @@ h1{
 .linkHome a{
   color: white;
   text-decoration: none;
-}
+} */
